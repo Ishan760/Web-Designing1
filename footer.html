@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        footer{
+            width: 100%;
+            height: 300px;
+            background: #088cfb;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+        
+        .logo img{
+            background-color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            width: 175px;
+            height: 45px;
+            align-content: center;
+            margin-top: 20px;
+        }
+        footer hr{
+            margin: 25px 0;
+            border: 0;
+            border-top: 1px solid #b7adad99;
+        }
+        .content{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+            justify-items: center;
+            align-items: center;
+            color: white;
+        }
+        .content h6{
+            font-size: 19px;
+        }
+        .content p{
+            margin-top: 15px;
+            font-size: 18px;
+        }
+        .copyright{
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <footer>
+        <div class="logo">
+            <center>
+            <img src="Image/colorlogo (1).png" alt="">
+            </center>
+        </div>
+        <hr>
+        <div class="content">
+            <div class="Email">
+                <center><h6>Email</h6>
+                    <p>
+                        www.pninfosys.com 
+                        <br>
+                        support@pninfosys.com
+                    </p>
+                </center>
+            </div>
+            <div class="phone">
+                <center>
+                    <h6>Phone</h6>
+                <p>
+                    +91 7000846823
+                    <br>
+                    +91 7415289378
+                </p>
+                </center>
+            </div>
+            <div class="address">
+                <center>
+                    <h6>Street Address</h6>
+                <p>
+                    MIG-332 Darpan Colony, Thatipur,
+                    <br>
+                    Gwailior, Madhya Pradesh
+                </p>
+                </center>
+            </div>
+
+        </div>
+        <hr>
+        <div class="copyright">
+            <h2><Center>
+                Copyright &copy; PNINFOSYS
+            </Center></h2>
+        </div>
+
+    </footer>
+</body>
+</html>

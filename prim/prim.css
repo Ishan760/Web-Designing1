@@ -1,0 +1,18 @@
+.heading{
+    border: 0px peachpuff; 
+    color: #892323;
+    background: peachpuff;
+    padding: 9px;
+    font-size: 34px;
+
+}
+
+
+.banner{
+    background: url(../Image/1621310912_picsart_05_18_09_37_30.jpg);
+    width: 100%;
+    height: 800px;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
